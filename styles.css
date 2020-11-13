@@ -1,5 +1,5 @@
 body {
-    margin-top: 40px;
+    margin-top: 2em;
     overflow-y: hidden;
     background-color: black;
     background-image:
@@ -54,7 +54,7 @@ footer{
 }
 
 .navbar{
-  position: absolute;
+  position: fixed;
   top: 93%;
   left: 0%;
   width: 100vw;
