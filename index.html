@@ -12,10 +12,10 @@
         <div id="navbar" class="navbar">
             <ul id="navbar-ul">
                 <p id="home-button">Home</p>
-                <p id="page-1-button">Page 1</p>
-                <p id="page-2-button">Page 2</p>
-                <p id="page-3-button">Page 3</p>
-                <p id="page-4-button">Page 4</p>              
+                <p id="page-1-button">Introduction</p>
+                <p id="page-2-button">Scene 1: New York Apt.</p>
+                <p id="page-3-button">Scene 2: New York Streets - Convoy</p>
+                <p id="page-4-button">Bonus: Dice Collection!</p>              
             </ul>    
         </div>
 
@@ -23,7 +23,10 @@
             <header>
                 <div class = 'dice-header'>
                     <img class = 'dice-image' src="./assets/d6d10.png">
-                    <h1>HTML-Me-Something</h1>
+                    <div id='landing-title'>
+                        <h3>LC101 - Assignment 4</h3>
+                        <h1><abbr title="Hypertext Markup Language">HTML</abbr>-Me-Something</h1>
+                    </div>
                 </div>                
                 
             </header>
@@ -31,19 +34,19 @@
             <main>
                 <div class="content">
                     <p>
-                        This is a small site project where I play and write out the first few encounters from the <cite>Cyberpunk 2020</cite> adventure book, <cite>Home of the Brave</cite>. <cite>Cyberpunk 2020</cite> is a tabletop RPG system from the late 80s and early 90s not unlike <cite>Dungeons & Dragons</cite>. The book describes a world in which two to six players, referred to in-universe as Edgerunners, strap on their spike-laden gloves and step into the shoes of individuals inhabiting a dystopian, street cred obsessed future.  
+                        This is a small site project where I play and write out the first couple of encounters from the <cite>Cyberpunk 2020</cite> adventure book, <cite>Land of the Free</cite>. <cite>Cyberpunk 2020</cite> is a tabletop <abbr title="Role-playing Game">RPG</abbr> system from the late 80's and early 90's not unlike <cite>Dungeons & Dragons</cite>. Instead of using an assortment of polyhedral dice, it uses a streamlined selection of standard d10s and d6s for everything gameplay related. The standard player's handbook describes a world in which a Referee and two to six players, referred to in-universe as Edgerunners, strap on their spike-studded gloves and step into the shoes of diverse individuals inhabiting a dystopian, street cred obsessed future.  
                     </p>
-                    <div class='roll hidden'>
-                        <p>Rolled Strength - &#60;1d8: 5&#62;</p>
-                        <div class='comment'>
-                            <p>Rolling a 5 is a failure on this check, unfortunately...</p>
-                        </div>
-                    </div>
+                    <p>
+                        Overall, it's mainly a short creative writing project, but I've also gone ahead and written an embedded script, adding simple <abbr title="Document Object Model">DOM</abbr>-based actions to the bottom of the page to change out the contents as needed.
+                    </p>
+                    <p>
+                        
+                    </p>
                 </div>
             </main>
     
             <footer>
-                <p>this is the footer</p>
+                <p>e-mail me!</p>
             </footer>
         </div>
 
@@ -77,10 +80,15 @@
 
         <div id="content-page-4" class="hidden">
             <article>
-                <h2>Page 4</h2>
-                <p>
-                    Remind me to thank John for a lovely weekend. So you two dig up, dig up dinosaurs? You really think you can fly that thing? Remind me to thank John for a lovely weekend. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.
-                </p>
+                <h2>Dice Collection!</h2>
+                <div id='img-content'>
+                    <ul class='centered'>
+                        <img src='./assets/dice1.jpg' height=360 width=640>
+                        <img src='./assets/dice2.jpg' height=360 width=640>
+                    </ul>
+                    
+                </div>
+                
             </article>            
         </div>
     </body>
