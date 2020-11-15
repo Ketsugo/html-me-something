@@ -3,25 +3,23 @@
         <title>LC101 HTML Me Something</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="styles.css">
-        <script src="scripts.js"></script>
     </head>
 
     <body>
-        <div class="terminal">
-            
+        <div id="main-terminal" class="terminal animated fadeIn">
         </div>
-                
+
         <div class="navbar">
             <ul>
-                <p>Home</p>
-                <p>Page 1</p>
-                <p>Page 2</p>
-                <p>Page 3</p>
-                <p>Page 4</p>
+                <p id="home-button">Home</p>
+                <p id="page-1-button">Page 1</p>
+                <p id="page-2-button">Page 2</p>
+                <p id="page-3-button">Page 3</p>
+                <p id="page-4-button">Page 4</p>
             </ul>    
         </div>
 
-        <div class="landing-1 hidden">
+        <div id="landing" class="hidden">
             <header>
                 <div class = 'dice-header'>
                     <img class = 'dice-image' src="./assets/2d10.png">
@@ -49,7 +47,7 @@
             </footer>
         </div>
 
-        <div class="content-1 hidden">
+        <div id="content-page-1" class="hidden">
             <article>
                 <h1>Page 1</h1>
                 <p>
@@ -58,7 +56,7 @@
             </article>
         </div>
 
-        <div class="content-2 hidden">
+        <div id="content-page-2" class="hidden">
             <article>
                 <h1>Page 2</h1>
                 <p>
@@ -67,7 +65,7 @@
             </article>
         </div>
 
-        <div class="content-3 hidden">
+        <div id="content-page-3" class="hidden">
             <article>
                 <h1>Page 3</h1>
                 <p>
@@ -77,7 +75,7 @@
             
         </div>
 
-        <div class="content-4 hidden">
+        <div id="content-page-4" class="hidden">
             <article>
                 <h1>Page 4</h1>
                 <p>
@@ -86,4 +84,6 @@
             </article>            
         </div>
     </body>
+
+    <script src="scripts.js"></script>
 </html>
