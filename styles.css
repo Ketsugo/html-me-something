@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
     height: 100%;
     color: white;
-    font: 1.3rem Inconsolata, monospace;
+    font: 1.2rem Inconsolata, monospace;
     text-shadow: 0 0 5px #C8C8C8;
 }
 
@@ -87,8 +87,8 @@ body::after{
 }
 
 .terminal{
-  margin: 4em 10em 0em;
-  padding: 1em;
+  margin: .75% 8% 0%;
+  padding: 2.5%;
 
 }
 
@@ -110,7 +110,7 @@ body::after{
 
 #navbar ul{
   color: lime;
-  font: 1.3rem Inconsolata, monospace;
+  font: 0.9em Inconsolata, monospace;
   text-shadow: 0 0 5px limegreen;
   top: 50%;
   margin: 0px;
