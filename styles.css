@@ -52,6 +52,14 @@ body::after{
   display: inline-flex;
 }
 
+.comment{
+  font-style: italic;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
 .navbar{
   position: fixed;
   top: 93%;

@@ -2,11 +2,26 @@
     <head>
         <title>LC101 HTML Me Something</title>
         <link rel="stylesheet" href="normalize.css">
-		<link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script>
     </head>
 
     <body>
         <div class="terminal">
+            
+        </div>
+                
+        <div class="navbar">
+            <ul>
+                <p>Home</p>
+                <p>Page 1</p>
+                <p>Page 2</p>
+                <p>Page 3</p>
+                <p>Page 4</p>
+            </ul>    
+        </div>
+
+        <div class="landing-1 hidden">
             <header>
                 <div class = 'dice-header'>
                     <img class = 'dice-image' src="./assets/2d10.png">
@@ -20,18 +35,12 @@
                     <p>
                         I gave it a cold? I gave it a virus. A computer virus. Did he just throw my cat out of the window? Yes, Yes, without the oops! Life finds a way. You really think you can fly that thing? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!                        
                     </p>
-                    <p>
-                        Do you have any idea how long it takes those cups to decompose. Do you have any idea how long it takes those cups to decompose. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
-                    </p>
-                    <p>
-                        God help us, we're in the hands of engineers. You know what? It is beets. I've crashed into a beet truck. What do they got in there? King Kong? Yes, Yes, without the oops! Hey, take a look at the earthlings. Goodbye! Hey, take a look at the earthlings. Goodbye!
-                    </p>
-                    <p>
-                        We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! They're using our own satellites against us. And the clock is ticking. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?
-                    </p>
-                    <p>
-                        Remind me to thank John for a lovely weekend. So you two dig up, dig up dinosaurs? You really think you can fly that thing? Remind me to thank John for a lovely weekend. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.
-                    </p>
+                    <div class='roll'>
+                        <p>Rolled Strength - &#60;1d8: 5&#62;</p>
+                        <div class='comment'>
+                            <p>Rolling a 5 is a failure on this check, unfortunately...</p>
+                        </div>
+                    </div>
                 </div>
             </main>
     
@@ -39,15 +48,42 @@
                 <p>this is the footer</p>
             </footer>
         </div>
-        
-        <div class="navbar">
-            <ul>
-                <p>aeiou</p>
-                <p>aeiou2</p>
-                <p>aeiou3</p>
-                <p>aeiou4</p>
-                <p>aeiou5</p>
-            </ul>    
+
+        <div class="content-1 hidden">
+            <article>
+                <h1>Page 1</h1>
+                <p>
+                    Do you have any idea how long it takes those cups to decompose. Do you have any idea how long it takes those cups to decompose. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard!
+                </p>
+            </article>
+        </div>
+
+        <div class="content-2 hidden">
+            <article>
+                <h1>Page 2</h1>
+                <p>
+                    God help us, we're in the hands of engineers. You know what? It is beets. I've crashed into a beet truck. What do they got in there? King Kong? Yes, Yes, without the oops! Hey, take a look at the earthlings. Goodbye! Hey, take a look at the earthlings. Goodbye!
+                </p>
+            </article>
+        </div>
+
+        <div class="content-3 hidden">
+            <article>
+                <h1>Page 3</h1>
+                <p>
+                    We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! They're using our own satellites against us. And the clock is ticking. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager?
+                </p>
+            </article>
+            
+        </div>
+
+        <div class="content-4 hidden">
+            <article>
+                <h1>Page 4</h1>
+                <p>
+                    Remind me to thank John for a lovely weekend. So you two dig up, dig up dinosaurs? You really think you can fly that thing? Remind me to thank John for a lovely weekend. Yeah, but your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.
+                </p>
+            </article>            
         </div>
     </body>
 </html>
